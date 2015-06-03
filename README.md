@@ -1,16 +1,16 @@
 # PHormatter
 Phone numbers formatter (Node.js module)
 
-## Description
+### Description
 This Node.JS module was ported from php library (https://github.com/mrXCray/PhoneCodes)
 It formats phone number in pretty, more readable string, depends on country code and length of phone number.
 
-## Installation
+### Installation
 ```
 $ npm i phormatter
 ```
 
-## Using
+### Using
 
 Module has only one function *format*
 
@@ -25,10 +25,11 @@ Module has only one function *format*
  *
  * @return string
  */
-phormatter.format(phone, divider, plusForce, convertCharNumber) {
+format(phone, divider, plusForce, convertCharNumber) {
   ...
 };
-``
+```
+
 Example of using:
 
 ```
@@ -42,5 +43,5 @@ phone = phormatter.format(phone, ' ', true);
 console.log(phone); //Output +7 (499) 123 45 67
 ```
 
-## Support or Contact
+### Support or Contact
 Having questions? Contact me using email dev@instup.com
