@@ -34,13 +34,22 @@ Example of using:
 
 ```
 var phormatter = require('phormatter');
+var phone;
 
-var phone = '74991234567';
+phone = '74991234567';
 phone = phormatter.format(phone);
 console.log(phone); //Output 7 (499) 123-45-67
 
 phone = phormatter.format(phone, ' ', true);
 console.log(phone); //Output +7 (499) 123 45 67
+
+phone = '001-800-APPLEGO';
+phone = phormatter.format(phone);
+console.log(phone); //Output +1 (800) 277-53-46
+
+phone = '+44 (0) 870 770 5370';
+phone = phormatter.format(phone);
+console.log(phone); //Output +44 (0870) 770-53-70
 ```
 
 ### Support or Contact
