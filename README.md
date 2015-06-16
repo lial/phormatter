@@ -7,7 +7,7 @@ It formats phone number in pretty, more readable string, depends on country code
 
 ### Installation
 ```
-$ npm i phormatter
+$ npm install phormatter
 ```
 
 ### Using
