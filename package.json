@@ -1,0 +1,29 @@
+{
+  "name": "phormatter",
+  "version": "1.0.1",
+  "description": "Port of php library (https://github.com/mrXCray/PhoneCodes) that formats phone number to format like +1 (800) 123-45-67",
+  "main": "phormatter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lial/phormatter.git"
+  },
+  "keywords": [
+    "phone",
+    "number",
+    "formatting",
+    "phones",
+    "format"
+  ],
+  "author": {
+    "name": "LIAL",
+    "email": "dev@instup.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lial/phormatter/issues"
+  },
+  "homepage": "https://github.com/lial/phormatter"
+}
